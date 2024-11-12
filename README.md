@@ -1,5 +1,7 @@
 **Mental Health Status Prediction Using Sentiment Analysis**
+
 **Overview**
+
 This project aims to predict the mental health status of individuals based on their statements. The model analyzes textual data using sentiment analysis and classifies the statements into one of seven mental health categories:
 
     Normal
@@ -13,6 +15,7 @@ This project aims to predict the mental health status of individuals based on th
 The project uses advanced Natural Language Processing (NLP) techniques and machine learning algorithms to classify text data, providing early insights that could help mental health professionals with diagnosis and intervention.
 
 **Project Description**
+
 The goal of this project is to build a machine learning model capable of predicting the mental health status of an individual based on their text inputs. Using sentiment analysis, the model classifies text data into the following categories: Normal, Depression, Suicidal, Anxiety, Stress, Bi-Polar, and Personality Disorder.
 
 This approach leverages machine learning and natural language processing (NLP) techniques to extract meaningful patterns from unstructured text data, which can be useful in early-stage identification and intervention for mental health conditions.
@@ -28,17 +31,20 @@ This approach leverages machine learning and natural language processing (NLP) t
       NumPy: For numerical operations.
 
 **Data Description**
+
 The dataset consists of statements from individuals, with labels representing the mental health condition they correspond to.
 
 Example Dataset:
-Statement	Mental| Health Status
-"oh my gosh"|	Anxiety
-"trouble sleeping, confused mind, restless heart..."	|Anxiety
-"All wrong, back off dear, forward doubt. Stay away"|	Anxiety
-"I've shifted my focus to something else but I’m restless..."|	Anxiety
-"I'm restless and restless, it's been a month now..."	|Anxiety
+
+    Statement	Mental| Health Status
+    "oh my gosh"|	Anxiety
+    "trouble sleeping, confused mind, restless heart..."	|Anxiety
+    "All wrong, back off dear, forward doubt. Stay away"|	Anxiety
+    "I've shifted my focus to something else but I’m restless..."|	Anxiety
+    "I'm restless and restless, it's been a month now..."	|Anxiety
 
 **Model Development**
+
 We apply machine learning and NLP techniques to develop the model. Here are the steps followed in the model development:
 
 **Data Preprocessing: Done By the K L Sreya 2022BCD0031**
@@ -62,6 +68,7 @@ We apply machine learning and NLP techniques to develop the model. Here are the 
     The model’s performance is visualized using confusion matrices and loss/accuracy curves.
 
 **Training the Model**
+
 To train the model, the following steps are executed:
 
     1. Load the dataset: Use the Pandas library to load the dataset into a DataFrame.
@@ -73,6 +80,7 @@ To train the model, the following steps are executed:
     7. Save the trained model: The trained model is saved using joblib or pickle for future use.   
 
 **Evaluation**
+
 After training the model, we evaluate its performance using metrics like accuracy, precision, recall, and F1-score. Additionally, we visualize training progress and loss curves using Matplotlib.
 
     Accuracy: The percentage of correct predictions.
